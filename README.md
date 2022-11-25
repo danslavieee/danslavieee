@@ -1,0 +1,102 @@
+- 👋 Hi, I’m @danslavieee
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+danslavieee/danslavieee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+0b00001000
+0b11111000
+0b00010000
+0b11111000
+0b00011000
+0b11111000
+0b00100000
+0b11111000
+0b00101000
+0b11111000
+0b00110000
+0b11111000
+0b00111000
+0b11111000
+0b01000000
+0b11111000
+0b01001000
+0b11111000
+0b01010000
+0b11111000
+0b01011000
+0b11111000
+0b01100000
+0b11111000
+0b01101000
+0b11111000
+0b01110000
+0b11111000
+0b01111000
+0b11111000
+
+//Con instrucciones
+
+MOV ACC, A
+0b00001000
+0b11111000
+
+MOV A, ACC
+0b00010000
+0b11111000
+
+MOV ACC, CTE
+0b00011000
+0b11111000
+
+MOV ACC, [DPTR]
+0b00100000
+0b11111000
+
+MOV DPTR, ACC
+0b00101000
+0b11111000
+
+MOV [DPTR], ACC
+0b00110000
+0b11111000
+
+INV ACC
+0b00111000
+0b11111000
+
+AND ACC, A 
+0b01000000
+0b11111000
+
+ADD ACC, A
+0b01001000
+0b11111000
+
+JMP CTE
+0b01010000
+0b11111000
+
+JZ CTE
+0b01011000
+0b11111000
+
+JN CTE
+0b01100000
+0b11111000
+
+JC CTE
+0b01101000
+0b11111000
+
+CALL DIR
+0b01110000
+0b11111000
+
+RET
+0b01111000
+0b11111000
